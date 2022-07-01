@@ -19,3 +19,5 @@ bin
 
 # vendored deps
 vendor
+
+.idea

@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: user-container
-        image: mchmarny/dapr-grpc-service-template:latest
+        image: ghcr.io/tfyl/dapr-grpc-service-template:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 50001
