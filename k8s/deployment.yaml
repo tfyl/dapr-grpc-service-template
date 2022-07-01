@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: dapr-grpc-service-template
+  namespace: production
   labels:
     app: dapr-grpc-service-template
 spec:
